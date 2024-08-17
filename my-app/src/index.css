@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  height: 100vh;
+  background: #f6f6f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Matemasie", sans-serif;
+}
+
+.screen {
+  height: 4rem;
+  margin-bottom: 4rem;
+}
+
+.wrapper{
+  height: 20rem;
+  width: 30rem;
+  padding: 2rem;
+  margin-top: 4rem;
+  background: #f9f9f9;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 15px 20px rgba(0,0,0,0.1);
+}
+
