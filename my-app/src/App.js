@@ -16,15 +16,15 @@ const btnValues = [
 function App() {
   return (
     <div >
-      <Wrapper>
-        <h1>My Name Is janth niroshan</h1>
+      
+        
         <Screen/>
         <ButtonBox>
           {btnValues.flat().map((btn, i) => (
             <Button value={btn} key={i} />
           ))}
         </ButtonBox>
-      </Wrapper>
+      
     </div>
   );
 }
