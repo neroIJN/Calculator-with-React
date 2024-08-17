@@ -17,7 +17,7 @@ body {
 }
 
 .screen {
-  height: 4rem;
+  height: 2rem;
   margin-bottom: 4rem;
 }
 
@@ -31,3 +31,23 @@ body {
   box-shadow: 10px 10px 15px 20px rgba(0,0,0,0.1);
 }
 
+.buttonBox{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 1rem;
+}
+
+.bts{
+  background:#8c2c2c;
+  height: 5rem;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #242424;
+  border: none;
+  font-size: 1.5rem;
+
+}

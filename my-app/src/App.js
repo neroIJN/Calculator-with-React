@@ -15,10 +15,9 @@ const btnValues = [
 
 function App() {
   return (
-    <div >
+    <div>
       
-        
-        <Screen/>
+        <Screen />
         <ButtonBox>
           {btnValues.flat().map((btn, i) => (
             <Button value={btn} key={i} />
