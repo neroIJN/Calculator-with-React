@@ -28,7 +28,7 @@ body {
   margin-top: 4rem;
   background: #f9f9f9;
   border-radius: 1rem;
-  box-shadow: 10px 10px 15px 20px rgba(0,0,0,0.1);
+  box-shadow: 15px 10px 15px -3px rgba(0,0,0,0.1);
 }
 
 .buttonBox{
@@ -37,9 +37,9 @@ body {
   gap: 1rem;
 }
 
-.bts{
-  background:#8c2c2c;
-  height: 5rem;
+.button {
+  background: #e9f0f4;
+  height: 3.5rem;
   padding: 10px;
   border-radius: 10px;
   display: flex;
@@ -47,7 +47,21 @@ body {
   justify-content: center;
   cursor: pointer;
   color: #242424;
-  border: none;
   font-size: 1.5rem;
+  transition: border 0.3s; /* Smooth transition for the border change */
+  border: none;
+}
 
+.button:hover {
+  border: 2px solid #8c2c2c;
+}
+
+
+.equals {
+  background: #4bd086;
+  grid-column: 3/5;
+}
+
+.opt {
+  background: #f79505 !important;
 }
